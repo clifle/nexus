@@ -28,4 +28,4 @@ Knowledge graphs are now ubiquitous and serves as data integration hub to integr
 
 ## What you'll need
 
-* A Python 3.5 or higher  with support of Jupyter notebook
+* A Python 3.5 or higher with support of Jupyter notebook
