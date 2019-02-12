@@ -83,7 +83,8 @@ At the end you'll see a token button on the right corner. Click on it to copy th
 
 ![login-ui](../assets/copy-token.png)
 
-The token can now be added to the tutorial profile. In the output of the following command you should see that the token column has now an expiry date.
+The token can now be added to the tutorial profile substituting your copied token at the word TOKEN in the following command. In the output, you should see that the token column has now an expiry date.
+
 
 Command
 :   @@snip [settoken-auth-cmd.sh](../assets/settoken-auth-cmd.sh)
@@ -268,9 +269,6 @@ Graph navigation queries
 #### Query data using the SparqlView
 
 The SparqlView is available at the address [https://nexus-sandbox.io/v1/views/tutorialnexus/$PROJECTLABEL/graph/sparql].
-The following diagram shows how the MovieLens data is structured in the default Nexus SparqlView. Note that the ratings, tags and movies are joined by the movieId property.
-
-![Movielens-default_nexus_graph.png](../assets/Movielens-default_nexus_graph.png)
 
 Select queries
 :   @@snip [select_sparql.sh](../assets/select_sparql.sh)
