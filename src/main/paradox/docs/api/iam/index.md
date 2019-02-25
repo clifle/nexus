@@ -20,7 +20,7 @@ A realm provides with the necessary information to perform authentication agains
 ## Permissions 
 A permission is the basic unit to provide a way to limit applications' access to sensitive information.  
 
-@ref:[Operations on permisions](iam-permissions-api.md)
+@ref:[Operations on permissions](iam-permissions-api.md)
 
 ## ACLs
 
